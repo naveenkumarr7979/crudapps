@@ -9,6 +9,18 @@ public class MainController {
     @GetMapping("/test")
     public String home()
     {
-        return "hello jyoti baby buggu i lovpuk e ";
+        return "this is test.";
     }
+    @GetMapping("/index")
+    public String index()
+    {
+        return "this is index.";
+    }
+    @GetMapping("/admin")
+    public String admin()
+    {
+        return "this is admin.";
+    }
+
+
 }
